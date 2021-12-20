@@ -23,7 +23,7 @@ By Gabriel Staples
 
 <a id="license"></a>
 # License
-All of my content in this repo, including my content linked-to from here but stored on other sites, such as on TinkerCad.com, is licensed under **[CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) (Creative Commons Attribution-ShareAlike 4.0 International)** unless stated otherwise.
+All of my content in this repo, including my content linked-to from here but stored on other sites, such as on www.TinkerCad.com, is licensed under **[CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) (Creative Commons Attribution-ShareAlike 4.0 International)** unless stated otherwise.
 
 This is a copy-left license, meaning that "if you remix, transform, or build upon the material, you must distribute your contributions under the same license as the original." This license _does_ allow for commercial use. Since it is copy-left and *does* allow for commercial use, it is comparable to the GPL license if you're familiar with that license in software. 
 
