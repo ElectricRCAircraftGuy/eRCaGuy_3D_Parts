@@ -16,6 +16,8 @@ By Gabriel Staples
 
 1. [License](#license)
 1. [Models](#models)
+1. [Notes](#notes)
+    1. [3D Lithophanes \(3D-printed transparency images\)](#3d-lithophanes-3d-printed-transparency-images)
 
 <!-- /MarkdownTOC -->
 </details>
@@ -40,3 +42,56 @@ Regardless, I hope you find this useful.
 1. todo
 
 <iframe width="725" height="453" src="https://www.tinkercad.com/embed/hrsKxOk1Xc7?editbtn=1" frameborder="0" marginwidth="0" marginheight="0" scrolling="no"></iframe>
+
+
+<a id="notes"></a>
+# Notes
+
+<a id="3d-lithophanes-3d-printed-transparency-images"></a>
+## 3D Lithophanes (3D-printed transparency images)
+
+
+1. EXCELLENT video: [Polymaker: 3D Print Any Image - Lithophane Lightbox](https://www.youtube.com/watch?v=3i6UzTQTSZU)
+    1. Recommended image to .stl lithophane converter tool: https://3dp.rocks/lithophane/
+    1. Recommended settings (written in the descriptions under the video above):
+        1. Image preparation:
+            1. Crop your image to `3:2` width:height ratio
+                1. Can be done in Gimp via Tools --> Transform Tools --> Crop, then select the "Tool Options" tab, check the box for "Fixed" Aspect ratio, and enter `3:2` into the box. Click and drag the right-sized box on the screen, and position it where you want it. Press <kbd>Enter</kbd> to complete the crop. 
+                1. See: https://docs.gimp.org/en/gimp-tutorial-quickie-crop.html
+            1. Save image as .jpg less than 1 MB in size
+        1. Go here: https://3dp.rocks/lithophane/ --> choose "Outer Curve" lithophane type at the bottom
+        1. Settings --> **Model Settings**:
+            |                     |             |
+            |---------------------|-------------|
+            | Maximum Size:       | ~`150`~ mm [GS use `110` mm for small printers such as ToyBox]   |
+            | Thickness:          | `2` mm      |
+            | Border:             | `4` mm      |
+            | Thinnest Layer:     | `0.8` mm    |
+            | Vectors Per Pixel:  | ~`10`~ [GS use `4` instead in order to keep output .stl file size < 20 MB, which is required by the ToyBox printer]        |
+            | Base/Stand Depth:   | `0`         |
+            | Curve:              | `0`         |
+
+            1. Size notes for a sample input .jpg which was 0.63 MB. Output .stl file (ToyBox requires < 20 MB) is:
+                1. `10` vectors per pixel: 83.6 MB
+                1. `7` vectors per pixel:  41.0 MB
+                1. `5` vectors per pixel:  20.9 MB
+                1. `4` vectors per pixel:  13.4 MB <-- so use this one to keep .stl file size < 20 MB
+
+            ![image](https://user-images.githubusercontent.com/6842199/149876504-ffe7f9d8-eb96-48fb-b5b8-75000de131db.png)
+        1. Settings --> **Image Settings**:
+            |                     |             |
+            |---------------------|-------------|
+            | `Positive Image`    |             |  
+            | `Mirror Image Off`  |             |
+            | `Flip Image Off`    |             |
+            | `Manual Refresh`    |             |
+            | Repeat X Count:     | `1`         |
+            | Repeat Y Count:     | `1`         |
+            | `Mirror Repeat Off` |             |
+            | `Flip Repeat Off`   |             |
+
+            See: ![image](https://user-images.githubusercontent.com/6842199/149876696-49e2b3df-b1ef-450e-b173-275750b8d2b3.png)
+        1. Click the "Model" tab --> "Refresh" button to do the conversion!
+        1. Click the "Model" tab --> "Download" button to save the generated .stl file lithophane.
+
+END
