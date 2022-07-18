@@ -18,6 +18,7 @@ By Gabriel Staples
 1. [Models](#models)
 1. [Notes](#notes)
     1. [3D Lithophanes \(3D-printed transparency images\)](#3d-lithophanes-3d-printed-transparency-images)
+    1. [Best slicers](#best-slicers)
 
 <!-- /MarkdownTOC -->
 </details>
@@ -93,5 +94,24 @@ Regardless, I hope you find this useful.
             See: ![image](https://user-images.githubusercontent.com/6842199/149876696-49e2b3df-b1ef-450e-b173-275750b8d2b3.png)
         1. Click the "Model" tab --> "Refresh" button to do the conversion!
         1. Click the "Model" tab --> "Download" button to save the generated .stl file lithophane.
+
+
+<a id="best-slicers"></a>
+## Best slicers
+
+1. Cura
+    1. https://ultimaker.com/software/ultimaker-cura
+    1. Company-supported, and open source.
+    1. Supported by Ultimaker
+    1. https://en.wikipedia.org/wiki/Cura_(software)
+2. PrusaSlicer (forked from Slic3r)
+    1. Company-supported, and open source.
+3. Slic3r
+    1. Community-supported _only_, so expect development to be _much_ more slow, unfortunately.
+
+References:
+1. https://all3dp.com/2/prusaslicer-vs-cura-differences/
+1. [my comment] https://maketoys.zendesk.com/hc/en-us/community/posts/4414061933076/comments/4479170469140
+
 
 END

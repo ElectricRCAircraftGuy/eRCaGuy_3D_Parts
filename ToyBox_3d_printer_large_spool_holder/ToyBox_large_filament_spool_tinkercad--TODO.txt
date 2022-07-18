@@ -1,0 +1,27 @@
+
+GS
+18 Dec. 2021
+
+X = decided NOT to do this
+✓ = done
+
+
+✓ 1. Add a tiny 1mm loft near the bottom of each foot for strength; do this by reducing the thickness of the bottom pad by 1mm; make the loft go from 9.5mm/2 radius on bottom to 5mm/2 radius on top, 1mm thick.
+✓ 1. Make hollow hole go all the way through entire big cylinder.
+✓ 1. Add a tiny .1mm hole down through the lofts at the bottom too.
+✓ 1. Re-do the feet entirely, using a system of circles within circles, and 60 or 120 deg rotations, to get the feet *perfectly* placed, since they currently are not.
+✓ 1. Shift the big cylinder to be 1~2mm to the right of the peg underneath it.
+✓ 1. Add 0.2mm holes all the way through each peg, from the very top to the very bottom, to help make them a little more solid since otherwise there would be a 2mm grid hole there.
+    1. Increase this to 4 x 0.1mm holes per foot peg if needed, for strength.
+✓ 1. Cut the top of the part off completely for test printing, and test print it to see if the feet align properly and if the lofts work.
+
+
+TODO FOR VERSION 5 from v4:
+------------------------------
+✓ 1. Add 3 [nah, do 5] more 0.5mm holes per peg, to force extra material inside the pegs rather than having mesh there.
+    ✓ 1. Add a ring of 0.5mm holes to strengthen pins.
+✓ 1. Slightly adjust all 3 rectangle bridges to make the inner corners farther out, so that the head MUST pass over material as it builds the inner edge. Currently, the inner edge and corners are far enough inside that as the machine attempts to build them for the first time it goes over thin air and drops material over thin air, completely missing the pins' pedestals!
+✓ 1. Consider slightly tightening the peg hole gap [see below]
+    ✓ 1. Reduce gap of pins by 0.5mm.
+X 1. Consider tilting the spool arm up 1 to 3 deg or so to keep it level since it will droop a little due to slop in the pin connections to the printer frame holes.
+✓ 1. Add a bevel to the base of the cylinder arm to improve bonding of the spool holder arm to the base.
